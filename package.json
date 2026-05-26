@@ -1,0 +1,15 @@
+{
+  "name": "introspectrophy-fulcrum-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A publishable full-stack Introspectrophy calibration app with persistent backend storage.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
