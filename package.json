@@ -1,0 +1,20 @@
+{
+  "name": "introspectropy-sros",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Introspectropy SR-OS Pattern First MVP with ICE classification and persistent backend storage.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js && node --check scripts/smoke-test.mjs",
+    "test:smoke": "node scripts/smoke-test.mjs",
+    "db:migrate": "node scripts/migrate-postgres.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
